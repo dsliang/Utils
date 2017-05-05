@@ -24,7 +24,7 @@ uploadArchives {
             repository(url: 'http://localhost:8081/repository/android/') {
                 authentication(userName: 'dsliang', password: '123456')
             }
-            pom.version = '0.0.2'
+            pom.version = '0.0.3'
             pom.artifactId = 'utils'
             pom.groupId = 'com.tuodi.common.tools'
             pom.packaging = 'aar'
